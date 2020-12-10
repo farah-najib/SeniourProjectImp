@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SeniourProjectImp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="email">Enter your Email</string>
+    <string name="pass">Enter Email Password</string>
+    <string name="delemaail">Send Data to this Email :</string>
+    <string name="control_set">Set</string>
+    <string name="controlno">Control No. Mobile :</string>
+    <string name="passpro">Profile Passcode :</string>
+    <string name="passfolder">Folder Passcode :</string>
+    <string name="passloc">Location Passcode :</string>
+
+
+/////////////////////////////////
+
+
+    <string name="userapp">Enter App UserName</string>
+    <string name="passwordapp">Enter APP PassWord</string>
+    <string name="signinbu">Configuration App  </string>
+    <string name="logapp">Log in ...</string>
+
+    <string name="setdis">instructions ....</string>
+    <string name="profile"> Enter Profile </string>
+    <string name="foldercode">Enter  Folder </string>
+    <string name="locationcode">Enter Location </string>
+    <string name="Email_pass">Enter Email Address</string>
+    <string name="emailpasscode">Enter Email Password</string>
+    <string name="appinstructon">Send a Message to your phone with the following text :</string>
+
+
+
+
+
+</resources>

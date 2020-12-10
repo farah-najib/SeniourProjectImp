@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/background"     android:background="@drawable/index">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="@string/profile"
+        android:background="@drawable/edit_text"
+        android:textSize="0.15in"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextfolder"
+        android:hint="@string/foldercode"
+        android:textSize="0.15in"
+        android:background="@drawable/edit_text"
+        android:layout_below="@+id/editText1"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="@string/locationcode"
+        android:background="@drawable/edit_text"
+        android:textSize="0.15in"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_alignRight="@+id/editTextfolder"
+        android:layout_alignEnd="@+id/editTextfolder" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:hint="@string/Email_pass"
+        android:background="@drawable/edit_text"
+        android:textSize="0.15in"
+        android:layout_above="@+id/editText5"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="0.15in"
+        android:id="@+id/editText5"
+        android:hint="@string/emailpasscode"
+        android:background="@drawable/edit_text"
+        android:layout_above="@+id/editText3"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/control_set"
+        android:id="@+id/button2"
+        android:textColor="#FCE4EC"
+        android:background="@drawable/edit_buttons"
+        android:layout_below="@+id/editTextfolder"
+        android:layout_alignRight="@+id/editTextfolder"
+        android:layout_alignEnd="@+id/editTextfolder"
+        android:layout_alignLeft="@+id/editTextfolder"
+        android:layout_alignStart="@+id/editTextfolder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/signinbu"
+        android:id="@+id/textView3"
+        android:textSize="0.3in"
+        android:textColor="#E91E63"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dl007_textfield_default"
+        android:layout_above="@+id/editText4" />
+
+
+</RelativeLayout>

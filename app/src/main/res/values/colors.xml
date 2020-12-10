@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="primary">#EC407A</color>
+
+    <color name="winBackground">#98cb4a</color>
+    <color name="background">#f76d3c</color>
+    <color name="txtback">#F8BBD0</color>
+</resources>
